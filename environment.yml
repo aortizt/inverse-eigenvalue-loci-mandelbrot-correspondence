@@ -1,0 +1,19 @@
+# Environment for Construct–Mandelbrot (CM–TCI) analysis
+# To create and activate:
+#   conda env create -f environment.yml
+#   conda activate cm-tci
+
+name: cm-tci
+channels:
+  - conda-forge      # reliable science/NumPy/SciPy builds
+dependencies:
+  - python=3.11       # tested with 3.11 (works with 3.10–3.12 too)
+  - numpy             # linear algebra, arrays
+  - scipy             # optimization, interpolation, spatial tools
+  - matplotlib        # plotting and figures
+  - scikit-learn      # embeddings, PCA, auxiliary analysis
+# Optional useful packages:
+#  - numba            # fast kernels (if you ever optimize loops)
+#  - pandas           # CSV/table processing
+#  - shapely          # geometry / polygon operations
+

@@ -1,6 +1,6 @@
+---
 
-
-#**UPDATED README.md** (clean and current)
+# ✅ **UPDATED README.md** (clean and current)
 
 *(Version with copy-files removed and CSV-path note added)*
 
@@ -21,8 +21,17 @@ diffusion/dynamical embeddings, symmetry diagnostics, and TCI/informational conv
 ## Repository Layout
 
 ```
-```text
+
 CM-TCI/
+├─ 0_data/                                 # (Optional) raw inputs and caches
+│   ├─ construct_points.csv                # Construct point cloud (x,y); required for Step 2
+│   └─ ...
+├─ outputs/                                # All generated results land here by default
+│   ├─ mandel_boundary.csv / .png / .txt
+│   ├─ construct_boundary.csv / .png / .txt
+│   ├─ curv_localpoly/mandel_*             # curvature outputs
+│   ├─ curv_localpoly/construct_*          # curvature outputs
+│   └─ ...
 ├─ scripts/
 │   ├─ mandelbrot_boundary_sample_spyder.py
 │   ├─ construct_boundary_alpha_spyder_v2.py
@@ -244,3 +253,4 @@ For reproducibility questions, open an issue with the script name, parameters, a
 ---
 
 ```
+
