@@ -23,6 +23,7 @@ dynamical embeddings, symmetry diagnostics, and information-theoretic (TCI / GI-
 
 ---
 ## Repository Layout
+```text
 CM-TCI/
 ├─ 0_data/
 │  ├─ construct_points.csv
@@ -70,7 +71,7 @@ CM-TCI/
 │  ├─ lucas_to_cardioid_v40_reference.py
 │  └─ lucas_equipotential_test_v3.py
 └─ README.md
-
+```
 ````
 
 **Note on input paths and legacy filenames:**  
